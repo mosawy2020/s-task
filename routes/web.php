@@ -12,7 +12,7 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('loadmore.index');
-});
+//Route::get('/', function () {
+//    return view('loadmore.index');
+//});
 Route::resource("products",'ProductController')->only("index") ;
